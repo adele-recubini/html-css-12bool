@@ -1,14 +1,21 @@
-*{
-  box-sizing: border-box;
-  padding:0;
-  margin:0;
-}
 
 [class*="col-"] {
   height: 300px;
   border: 1px solid black;
-  background-color: lightcoral;
+  background-color: pink;
   text-align: center;
   line-height: 300px;
+}
+
+
+[class*="col-"] .container [class*="col-"]{
+  height:260px;
+  background-color:lightcoral;
 
 }
+
+/* [class*="col-"] .container{
+  height:260px;
+  background-color:lightcoral;
+  position: relative;
+} */

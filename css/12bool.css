@@ -55,3 +55,7 @@ width: calc((100% / 12 ) * 2);
 .col-1{
 width: calc((100% / 12 ) * 1);
 }
+
+[class*="col-"] .container{
+  padding:20px;
+}
